@@ -1,0 +1,19 @@
+{
+  "name": "keep-calm-keep-testing",
+  "version": "1.0.0",
+  "description": "Testing E2E & learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IcyCaster/keep-calm-keep-testing.git"
+  },
+  "author": "chester.booker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IcyCaster/keep-calm-keep-testing/issues"
+  },
+  "homepage": "https://github.com/IcyCaster/keep-calm-keep-testing#readme"
+}
