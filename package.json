@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/IcyCaster/keep-calm-keep-testing/issues"
   },
-  "homepage": "https://github.com/IcyCaster/keep-calm-keep-testing#readme"
+  "homepage": "https://github.com/IcyCaster/keep-calm-keep-testing#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
 }
