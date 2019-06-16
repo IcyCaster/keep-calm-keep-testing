@@ -1,6 +1,8 @@
 // features/support/steps.js
-import { Given, When, Then } from "cucumber";
-import { expect } from "chai";
+import {Given, Then, When} from "cucumber";
+
+import {expect} from "chai";
+
 
 Given("a variable set to {int}", function(number) {
   this.setTo(number);
