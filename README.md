@@ -9,3 +9,5 @@ add some babel packages + babelrc with chrome target. Change to supported browse
 
 added simple step, chai and cucumber
 
+world file gave me trouble because it was in a different location
+
