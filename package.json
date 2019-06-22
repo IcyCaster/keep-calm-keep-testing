@@ -18,10 +18,15 @@
   "homepage": "https://github.com/IcyCaster/keep-calm-keep-testing#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/register": "^7.4.4",
     "chai": "^4.2.0",
-    "cucumber": "^5.1.0"
+    "cucumber": "^5.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.3"
+  },
+  "dependencies": {
+    "chromedriver": "^75.0.0"
   }
 }

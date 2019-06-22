@@ -1,4 +1,4 @@
-// features/support/steps.js
+// features/support/simple_feature_with_world.steps.js
 import {Given, Then, When} from "cucumber";
 
 import {expect} from "chai";
