@@ -1,5 +1,5 @@
 // features/support/simple_world.js
-import {setWorldConstructor, setDefaultTimeout} from "cucumber";
+import {setWorldConstructor, setDefaultTimeout, After} from "cucumber";
 import * as seleniumWebdriver from 'selenium-webdriver'
 import * as chrome from 'selenium-webdriver/chrome'
 
@@ -30,6 +30,10 @@ class CustomWorld {
 
 
 }
+
+After(function () {
+  return this.driver.quit();
+});
 
 setDefaultTimeout(20000);
 

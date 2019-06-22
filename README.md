@@ -11,21 +11,23 @@ Lets get babelling: Add: ✔
 - @babel/polyfill: This is something which fills in the functional gaps of browsers you are required to support
 - @babel/register: This is something which enables babel to do transpiling on run-time, as opposed to 
 - babelrc: configurations for babel -> currently only a target which is chrome, will add others later
+- @babel/plugin-proposal-class-properties: used for some experiemental properties
 
-Baby steps: Added a simple feature file, some steps, a world and some assertions
+Baby steps: Added a simple feature file, some steps, a world and some assertions ✔
 - feature file: gerkin language test description
 - step fils: actual code which is executed during each gerkin step
 - world: shared functions / variables across the tests... use sparingly imo
 - cucumber for executing the feature file
 - chai for my assertions
 // Troubles: The folder structure is important. I initally had the world file in a different location which caused issues
-- I wonder if I can point to a new world file
+- I wonder if I can point to a new world file X
 
 
 Planning:
 Add docker - get cucumber to run inside a docker container - easy?
-Add more complicated steps which use webdriverio to click on things
-- Webdriver npm
+Add more complicated steps which use webdriverio to click on things ✔
+- Webdriver npm ✔
+- Swap out selenium-webdriver for webdriver.io
 - Update docker to allow this to run - harder?
 - Configure webdriver configuration -> eg headless in docker?
 Add more feature files -> make sure you can specify why features to run
@@ -40,3 +42,4 @@ What's next:
 - What kind of reporting tool should there be?
 - how do you know whether it's with or without ui? Apart from reporting when it's not ui, does it matter?
 - eslint
+- pretty-printing of cucumber-js
